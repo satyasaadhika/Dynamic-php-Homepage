@@ -51,10 +51,10 @@ $footerText = "&copy; " . date('Y') . " My PHP Webpage. All rights reserved.";
     
     <main>
         <?php foreach ($contentSections as $section): ?>
-            <section class="content">
+        <section class="content">
                 <h2><?php echo $section['title']; ?></h2>
                 <p><?php echo $section['text']; ?></p>
-            </section>
+        </section>
         <?php endforeach; ?>
     </main>
     
