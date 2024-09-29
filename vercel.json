@@ -14,8 +14,8 @@
         "dest": "/style.css"
       },
       {
-        "src": "/(.*).png",
-        "dest": "/$1.png"
+        "src": "/(.*).jpeg",
+        "dest": "/$1.jpeg"
       },
       {
         "src": "/(.*)",
